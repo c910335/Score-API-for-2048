@@ -7,7 +7,7 @@ module Entities
    class Player < Grape::Entity
       expose :id, documentation: {type: 'integer', desc: 'identifier', required: true}
       expose :name, documentation: {type: 'string', desc: 'name', required: true}
-      expose :score, documentation: {type: 'integer', desc: 'name', required: true}
+      expose :score, documentation: {type: 'integer', desc: 'score', required: true}
    end
 
    class Players < Grape::Entity
